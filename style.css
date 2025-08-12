@@ -1,5 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .header, .footer {
-    background-color: #1F2937;
+    background: #1F2937;
 }
 
 .headerlogo {
@@ -16,4 +22,47 @@
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.across {
+    display: flex;
+    margin-top: 72px;
+}
+
+.image {
+    background-color: gray;
+    width: 380px;
+    padding: 72px;
+    color: white;
 }
