@@ -1,1 +1,2 @@
 # landing_page
+The current project is to create an entire web page from a provided design. The goal is to reproduce that web page from an image of the finished product. Upon completion, I'll have demonstrated new skills in flexbox as well as reviewed skills in html and css.
