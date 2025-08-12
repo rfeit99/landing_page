@@ -25,9 +25,12 @@ body {
     margin: 0;
 }
 
-.header {
+.topline {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header {
     padding-bottom: 60px;
     padding-left: 180px;
     padding-right: 180px;
@@ -65,4 +68,12 @@ button {
     width: 380px;
     padding: 72px;
     color: white;
+    text-align: center;
+}
+
+.info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
 }
